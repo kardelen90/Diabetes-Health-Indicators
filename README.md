@@ -32,9 +32,7 @@ Uygulama
 Streamlit kullanılarak bir web arayüzü geliştirilmiştir. Bu arayüz ile kullanıcılar kendi sağlık bilgilerini girerek diyabet riski tahmininde bulunabilirler.
 
 Web uygulamasına ulaşmak için:
-https://your-streamlit-link.streamlit.app
-
-(Not: Bu link örnek olarak yazılmıştır. Gerçek yayına aldığınız linkle değiştirmeniz gerekir.)
+[https://your-streamlit-link.streamlit.app](https://diabetes-health-indicators-9dzaszu8sysov3aeszqbfz.streamlit.app/)
 
 Diğer Dosyalar
 .ipynb uzantılı Jupyter Notebook: Veri analizi ve modelleme adımlarını içerir.
@@ -47,5 +45,5 @@ requirements.txt: Kullanılan kütüphaneleri içerir.
 
 Kaggle Proje Sayfası
 Projeye Kaggle üzerinden aşağıdaki bağlantıdan ulaşabilirsiniz:
-https://www.kaggle.com/code/kardelen90/diabetes
+[https://www.kaggle.com/code/kardelen90/diabetes](https://www.kaggle.com/code/kardelen90/diabetes)
 
