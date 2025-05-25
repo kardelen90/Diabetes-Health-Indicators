@@ -45,5 +45,5 @@ requirements.txt: Kullanılan kütüphaneleri içerir.
 
 Kaggle Proje Sayfası
 Projeye Kaggle üzerinden aşağıdaki bağlantıdan ulaşabilirsiniz:
-[https://www.kaggle.com/code/kardelen90/diabetes](https://www.kaggle.com/code/kardelen90/diabetes)
+https://www.kaggle.com/code/kardelen90/diabetes
 
