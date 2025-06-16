@@ -1,61 +1,56 @@
-Diabetes-Health-Indicators
-Bu projede, CDC (Amerika Hastalık Kontrol Merkezi) tarafından paylaşılan "Diabetes Health Indicators Dataset" verileri kullanılarak bireylerin diyabet riski tahmin edilmeye çalışılmıştır. Projede makine öğrenmesi yöntemleri kullanılmış ve veriler üzerinden bir model oluşturularak tahmin sistemi geliştirilmiştir.
+# 🩺 Diyabet Riski Tahmini – Diabetes Health Indicators
 
-Kullanılan Veri Seti
-Veri seti Kaggle üzerinden alınmıştır. Toplam 70692 örnek ve 22 özellikten oluşmaktadır. Her satır bir bireyin sağlık geçmişi ve yaşam alışkanlıklarına ait bilgileri içermektedir.
+## 📌 Proje Hakkında
+Bu projede, CDC (Amerika Hastalık Kontrol Merkezi) tarafından sağlanan **"Diabetes Health Indicators Dataset"** kullanılarak bireylerin diyabet riski tahmin edilmeye çalışılmıştır. Projede makine öğrenmesi yöntemleri ile bir sınıflandırma modeli geliştirilmiş ve web arayüzüyle kullanıcılara sunulmuştur.
 
-Veri seti bağlantısı:
-https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset
+## 📊 Kullanılan Veri Seti
+- 📁 Veri Kaynağı: [Kaggle - Diabetes Health Indicators Dataset](https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset)
+- 📌 Gözlem Sayısı: 70.692
+- 📌 Özellik Sayısı: 22  
+Her satır, bir bireyin sağlık geçmişi ve yaşam tarzına dair bilgileri içermektedir.
 
-Kullanılan Yöntemler
-Keşifsel Veri Analizi (EDA)
+## 🛠️ Kullanılan Yöntemler
 
-Verilerin ön işlenmesi
+### 🔍 Veri Analizi ve Ön İşleme
+- Keşifsel Veri Analizi (EDA)
+- Eksik değer kontrolü
+- Encoding (kategorik değişkenler)
+- StandardScaler ile ölçeklendirme
 
-StandardScaler ile ölçeklendirme
+### 🧠 Makine Öğrenmesi Algoritmaları
+- Logistic Regression
+- Random Forest
+- GridSearchCV ile hiperparametre optimizasyonu
 
-Makine öğrenmesi algoritmaları:
+### 📈 Model Değerlendirme Metrikleri
+- Accuracy (Doğruluk)
+- Confusion Matrix (Karışıklık Matrisi)
+- ROC AUC
+- F1-Score, Precision, Recall (geliştirme aşamasında eklenecek)
 
-Logistic Regression
+## ✅ Sonuçlar
+- En iyi doğruluk oranı: **%75**
+- Logistic Regression ve Random Forest algoritmaları karşılaştırıldı.
+- ROC AUC skoru yaklaşık **0.74** seviyelerinde elde edildi.
 
-Random Forest
+## 🌐 Web Uygulaması
+Streamlit kullanılarak geliştirilen bu web uygulaması üzerinden kullanıcılar kendi sağlık verilerini girerek diyabet riski tahmininde bulunabilirler.
 
-GridSearchCV ile hiperparametre optimizasyonu
+🔗 [Uygulamayı Açmak İçin Tıklayın](https://diabetes-health-indicators-9dzaszu8sysov3aeszqbfz.streamlit.app/)
 
-Model değerlendirme metrikleri:
+## 📁 Proje Dosyaları
 
-Accuracy
+| Dosya Adı | Açıklama |
+|-----------|----------|
+| `notebook/Diabetes-Health-Indicators.ipynb` | Veri analizi ve modelleme adımlarını içeren Jupyter Notebook |
+| `app.py` | Streamlit ile geliştirilen web uygulama kodu |
+| `data/diabetes.csv` | Kullanılan veri seti |
+| `requirements.txt` | Kullanılan Python kütüphaneleri listesi |
+| `images/` | Görseller: ROC eğrisi, karışıklık matrisi vb. |
 
-Confusion Matrix
+## 📌 Kaggle Proje Sayfası
+🔗 [Kaggle Notebook](https://www.kaggle.com/code/kardelen90/diabetes)
 
-ROC AUC
+## 📝 Not
+Bu proje, veri bilimi öğrenme sürecimdeki ilk deneyimlerden biridir. Yol boyunca çok şey öğrendim ve eksiklerime rağmen her adımı kendim yapmaya çalıştım. Gelecekte bu projeyi geliştirerek daha kapsamlı modeller oluşturmayı hedefliyorum.
 
-Sonuçlar
-En iyi doğruluk oranı: %75
-
-Logistic Regression ve Random Forest karşılaştırıldı.
-
-ROC AUC skoru yaklaşık 0.74 seviyelerinde elde edildi.
-
-Uygulama
-Streamlit kullanılarak bir web arayüzü geliştirildi. Bu arayüz üzerinden kullanıcılar kendi sağlık bilgilerini girerek diyabet riski tahmininde bulunabilirler.
- 
-Web uygulaması bağlantısı:
-https://diabetes-health-indicators-9dzaszu8sysov3aeszqbfz.streamlit.app/
-
-Proje Dosyaları
-Diabetes-Health-Indicators.ipynb – Veri analizi ve modelleme içeren Jupyter Notebook
-
-app.py – Streamlit ile geliştirilen web uygulaması kodu
-
-diabetes.csv – Kullanılan veri seti
-
-requirements.txt – Kullanılan kütüphane listesi
-
-Kaggle Proje Sayfası
-https://www.kaggle.com/code/kardelen90/diabetes
-
-Notu
-Bu proje, veri bilimi öğrenme sürecimdeki ilk deneyimlerimden biri.
-Yol boyunca pek çok şey öğrendim, eksiklerim olsa da her adımı kendim yapmaya çalıştım.
-İleride bu projeyi geliştirmeyi ve daha fazlasını yapmayı hedefliyorum.
