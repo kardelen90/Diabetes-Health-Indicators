@@ -32,7 +32,7 @@ Her satır, bir bireyin sağlık geçmişi ve yaşam tarzına dair bilgileri iç
 
 Aşağıda değişkenler arası korelasyon ilişkisi gösterilmiştir:
 
-![Korelasyon Matrisi](images/correlation_matrix.png)
+![Korelasyon Matrisi](images/grafik.png)
 
 ## ✅ Sonuçlar
 - En iyi doğruluk oranı: **%75**
