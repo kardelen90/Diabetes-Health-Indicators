@@ -28,6 +28,12 @@ Her satır, bir bireyin sağlık geçmişi ve yaşam tarzına dair bilgileri iç
 - ROC AUC
 - F1-Score, Precision, Recall (geliştirme aşamasında eklenecek)
 
+## 🔍 Korelasyon Matrisi
+
+Aşağıda değişkenler arası korelasyon ilişkisi gösterilmiştir:
+
+![Korelasyon Matrisi](images/correlation_matrix.png)
+
 ## ✅ Sonuçlar
 - En iyi doğruluk oranı: **%75**
 - Logistic Regression ve Random Forest algoritmaları karşılaştırıldı.
