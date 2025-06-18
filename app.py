@@ -39,7 +39,8 @@ data = {
 X_input = pd.DataFrame([data])  # Tek satırlık dataframe oluştur
  
 # # 3️⃣ Eğitim verisiyle modeli eğit
-df = pd.read_csv("diabetes_binary_5050split_health_indicators_BRFSS2015.csv")
+df = pd.read_csv("data/diabetes_binary_5050split_health_indicators_BRFSS2015.csv")
+
 
 selected_features = ['HighBP', 'BMI', 'Smoker', 'GenHlth', 'Sex', 'Age']
 X = df[selected_features]
